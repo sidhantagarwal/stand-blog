@@ -1,1 +1,13 @@
-<p>header works!</p>
+<div>
+    <div class="h-24 bg-gray-50 w-full flex justify-between px-48 items-center shadow-sm ">
+        <div class=" h-14 cursor-pointer uppercase text-2xl font-bold ">stand blog<span class="text-red-400 text-4xl ">.</span></div>
+        <div class="flex space-x-12 uppercase text-lg items-center">
+            <a routerLink ="/home" class="hover:text-red-500  cursor-pointer font-bold text-base">home</a>
+            <a routerLink="/aboutus" class="hover:text-red-500  cursor-pointer font-bold text-base">about us</a>
+            <a routerLink="/blogentries" class="hover:text-red-500  cursor-pointer font-bold text-base">blog entries</a>
+            <a routerLink="/postdetails" class="hover:text-red-500  cursor-pointer font-bold text-base">post details</a>
+            <a routerLink="/contactus" class="hover:text-red-500 cursor-pointer font-bold text-base">contact us</a>
+        </div>
+    </div>
+</div>
+<router-outlet></router-outlet>

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component,Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-recent-posts',
@@ -8,7 +8,8 @@ import { Component, OnInit } from '@angular/core';
 export class RecentPostsComponent implements OnInit {
 
   constructor() { }
-
+@Input () message: string|undefined;
+@Input () date: string|undefined;
   ngOnInit(): void {
   }
 
