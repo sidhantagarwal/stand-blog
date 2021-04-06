@@ -11,7 +11,6 @@ export class AboutUsDetailComponent implements OnInit {
 
   ngOnInit(): void {
   }
-  @Input() message:string|undefined;
-  @Input() title:string|undefined;
+  
 
 }

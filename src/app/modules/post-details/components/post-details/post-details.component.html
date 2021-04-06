@@ -1,1 +1,128 @@
-<p>post-details works!</p>
+<div class="  bg-gray-900 h-80  m-3  max-w-8xl" 
+style="background-image: url(./assets/heading-bg.jpeg)">
+    <app-module-banner
+    message="POST DETAILS"
+    title="SINGLE BLOG POST!">
+</app-module-banner>
+</div>
+
+<app-template-banner> </app-template-banner>
+
+<div class="float-right mr-48  left-1  pt-16 relative top-24"> 
+    <app-post-search></app-post-search>
+</div>
+
+
+<div class="h-1/6  flex  w-full"> 
+
+
+    <div class="h-1/6 w-3/4">  
+<app-post 
+image="./assets/blog-post-01.jpg"
+title="LIFESTYLE"
+message="Aenean Pulvinar Gravida Sem Nec"
+user="Admin"
+date="May 20,2020"
+comments="36 Comments"
+paragraph="Stand Blog is a free HTML CSS template for your CMS theme. You can easily adapt or 
+customize it for any kind of CMS or website builder. You are allowed to use it for your  business. You are NOT allowed to re-distribute the template ZIP file on any template collection site for the download purpose. Contact TemplateMo for more info. Thank you."
+icon="Beauty , "
+icon2="Nature "
+icon3=" Facebook"
+icon4="Twitter"
+></app-post>
+</div>
+
+<div class="max-h-screen p-4   relative top-28 right-32 w-96  " >
+
+    <p class="text-xl  uppercase font-bold leading-10">
+        Recent Posts
+    </p>
+<p  class="opacity-10 text-gray-700  relative bottom-2">____________________________________________</p>
+<app-recent-posts
+    message=" 
+    Vestibulum id turpis porttitor sapien facilisis scelerisque"
+    date=" May 31, 2020">
+</app-recent-posts>
+<p  class="opacity-10 text-gray-700  relative bottom-2">___________________________________________</p>
+
+<app-recent-posts
+    message=" 
+    Suspendisse et metus nec libero ultrices varius eget in risus"
+    date=" May 31, 2020">
+</app-recent-posts>
+<p  class="opacity-10 text-gray-700  relative bottom-2">____________________________________________</p>
+<app-recent-posts
+    message=" 
+    Swag hella echo park leggings, shaman cornhole ethical coloring"
+    date=" May 31, 2020">
+</app-recent-posts>
+<div class="mt-11">
+<app-categories></app-categories>
+</div>
+
+<app-tag-clouds></app-tag-clouds>
+
+</div>
+</div>
+
+    <p class="text-base tracking-wider  font-bold ml-44 mt-3  ">4 COMMENTS</p>
+    <p class="opacity-10 text-gray-700 ml-44 pb-3">____________________________________________________________________________________________________</p>
+
+
+    <div class=" h-36 w-3/6 ml-44 ">
+    <app-comments
+    image="./assets/comment-author-01.jpg"
+    paragraph="Fusce ornare mollis eros. Duis et diam vitae justo fringilla
+     condimentum eu quis leo. Vestibulum id turpis porttitor sapien facilisis scelerisque.
+      Curabitur a nisl eu lacus con eleifend posuere id tellus."
+name="Charles Kate"
+date="May 16, 2020">
+    </app-comments>
+</div>
+
+<p class="opacity-10 text-gray-700 relative bottom-10 ml-44 p-3">________________________________________________________________________________________________________</p>
+
+<div class=" h-36 w-2/5 ml-72 relative bottom-10">
+    <app-comments
+    image="./assets/comment-author-02.jpg"
+    paragraph="In porta urna sed venenatis sollicitudin. Praesent urna sem, pulvinar vel mattis eget."
+name="Thirteen Man"
+date="May 20, 2020">
+    </app-comments>
+</div>
+
+<p class="opacity-10 text-gray-700 relative bottom-24 ml-44 p-3">________________________________________________________________________________________________________</p>
+
+
+<div class=" h-36 w-3/6 ml-44 relative bottom-24">
+    <app-comments
+    image="./assets/comment-author-03.jpg"
+    paragraph="Nullam nec pharetra nibh. Cras tortor nulla, faucibus id tincidunt in, ultrices eget ligula. Sed vitae suscipit ligula.
+     Vestibulum id turpis volutpat, lobortis turpis ac, molestie nibh."
+name="Belisio Mama"
+date="May 16, 2020">
+    </app-comments>
+</div>
+
+<p class="opacity-10 text-gray-700 relative bottom-36 ml-44 p-3">________________________________________________________________________________________________________</p>
+
+<div class=" h-32  w-2/5 ml-72  relative bottom-36  ">
+    <app-comments
+    image="./assets/comment-author-02.jpg"
+    paragraph="Mauris sit amet justo vulputate, cursus massa congue, vestibulum odio. Aenean elit nunc, gravida in erat
+     sit amet, feugiat viverra leo."
+name="Thirteen Man"
+date="May 22, 2020">
+    </app-comments>
+</div>
+
+
+<p class="text-base tracking-wider  font-bold ml-44 relative bottom-32 ">YOUR COMMENT</p>
+    <p class="opacity-10 text-gray-700 ml-44 relative bottom-32">_________________________________________________________________________________________________________________</p>
+
+    <div class="h-96 w-2/3 relative bottom-24">
+        <app-your-comment>
+
+        </app-your-comment>
+    </div>

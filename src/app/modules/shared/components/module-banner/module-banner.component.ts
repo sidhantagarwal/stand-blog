@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input,OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-module-banner',
@@ -11,5 +11,6 @@ export class ModuleBannerComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  @Input() message:string|undefined;
+  @Input() title:string|undefined;
 }

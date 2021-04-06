@@ -21,6 +21,7 @@ export class PostComponent implements OnInit {
 @Input () icon2: string | undefined;
 @Input () icon3: string | undefined;
 @Input () icon4: string | undefined;
+@Input ()image :string|undefined;
 
 
 }

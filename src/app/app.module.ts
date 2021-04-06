@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CoreComponent } from './modules/core/components/core/core.component';
@@ -29,7 +28,7 @@ import { SendUsMessageComponent } from './modules/contact-us/components/send-us-
 import { ContactInformationComponent } from './modules/contact-us/components/contact-information/contact-information.component';
 import { AddressGeoMapComponent } from './modules/contact-us/components/address-geo-map/address-geo-map.component';
 import { HomeComponent } from './modules/home/components/home/home.component';
-
+import{HttpClientModule} from '@angular/common/http';
 @NgModule({
   declarations: [
     AppComponent,
@@ -59,10 +58,12 @@ import { HomeComponent } from './modules/home/components/home/home.component';
     ContactInformationComponent,
     AddressGeoMapComponent,
     HomeComponent,
+    
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
